@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[777],{6777:(e,t,n)=>{n.r(t),n.d(t,{default:()=>s});var u=n(7876);function s(){return(0,u.jsx)("button",{className:"px-4 py-2 rounded bg-blue-500 text-white hover:bg-blue-600 transition",children:"shadcn/ui Button (Tailwind)"})}}}]);

@@ -1,6 +1,7 @@
 
 import '../styles/globals.css';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
+import { TooltipProvider } from '@radix-ui/react-tooltip';
 import { useRef } from 'react';
 
 export default function App({ Component, pageProps }) {
@@ -11,7 +12,9 @@ export default function App({ Component, pageProps }) {
   }
   return (
     <QueryClientProvider client={queryClientRef.current}>
-      <Component {...pageProps} />
+      <TooltipProvider>
+        <Component {...pageProps} />
+      </TooltipProvider>
     </QueryClientProvider>
   );
 }

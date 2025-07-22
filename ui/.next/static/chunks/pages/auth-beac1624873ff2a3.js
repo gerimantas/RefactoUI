@@ -1,0 +1,1 @@
+(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[634],{556:(e,u,_)=>{(window.__NEXT_P=window.__NEXT_P||[]).push(["/auth",function(){return _(5243)}])},5243:(e,u,_)=>{"use strict";_.r(u),_.d(u,{default:()=>r});var n=_(7876);function r(){return(0,n.jsx)("div",{children:"Auth page placeholder"})}}},e=>{e.O(0,[636,593,792],()=>e(e.s=556)),_N_E=e.O()}]);

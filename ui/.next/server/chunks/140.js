@@ -1,0 +1,1 @@
+"use strict";exports.id=140,exports.ids=[140],exports.modules={9140:(a,b,c)=>{c.r(b),c.d(b,{default:()=>e});var d=c(8732);function e(){return(0,d.jsx)("button",{className:"px-4 py-2 rounded bg-blue-500 text-white hover:bg-blue-600 transition",children:"shadcn/ui Button (Tailwind)"})}}};

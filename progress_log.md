@@ -22,6 +22,8 @@
 | 2025-07-23 | 3.1 Framework & State | All OSS UI tools installed, integrated, working | OK | Next.js, React, shadcn/ui, Radix, Zustand, React Query, Tailwind; Firefox set as default browser; /auth and --no-sandbox issues resolved |
 
 
-### All other plan sections are not started.
+| 2025-07-23 | 3.2 Title Bar & Project Selector | UI improved: modern TitleBar with tooltip and recent projects, tested | OK | Only shadcn/ui, Radix primitives, Tailwind used; click-to-copy and recent UX working |
+
+| 2025-07-23 | 3.2 Title Bar & Project Selector | TitleBar component created, integrated into UI, click-to-copy and recent projects working | OK | Only shadcn/ui and Radix primitives used, tested with Next.js |
 
 *All actions and the unresolved issue are documented in accordance with the project plan requirements.*
