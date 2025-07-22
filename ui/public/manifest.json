@@ -1,0 +1,8 @@
+{
+  "name": "RefactoUI",
+  "short_name": "RefactoUI",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "description": "RefactoUI OSS demo manifest"
+}

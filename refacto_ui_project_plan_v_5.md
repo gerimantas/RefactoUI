@@ -39,7 +39,13 @@
 ---
 
 ## 3. AI Assistant Behavior Requirements
-
+  
+**After completing each plan section:**
+  - Log the action in the progress journal.
+  - Provide a brief summary of the completed section.
+  - **Ask the user: "Do you want to commit and push to GitHub now?" and proceed only after receiving confirmation.**
+  - Only after user confirmation, perform commit/push.
+  - Only then start the next plan section.
 - **Announce each section start**  
   "Starting 1.1 Python Environment. Goal: ..."
 - **Summarize after each section**  
@@ -460,13 +466,13 @@ CMD ["uvicorn", "refactoui.backend:app", "--host", "0.0.0.0", "--port", "8000"]
 
 ```Makefile
 install:
-	poetry install
+  poetry install
 lint:
-	black . && isort . && flake8 .
+  black . && isort . && flake8 .
 test:
-	pytest --cov=refactoui
+  pytest --cov=refactoui
 build-ui:
-	cd ui && npm ci && npm run build
+  cd ui && npm ci && npm run build
 all: install lint test build-ui
 ```
 
