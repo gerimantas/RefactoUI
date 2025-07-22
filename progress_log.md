@@ -1,6 +1,7 @@
 
 | Date/Time  | Plan Section     | Action       | Result     | Comment   |
 |------------|-----------------|-------------|------------|-----------|
+
 | 2025-07-21 | 1.1 Python Environment | Poetry init, pyproject.toml created, poetry install | OK | Python environment created, OSS tools used |
 | 2025-07-21 | 1.2 Open Source Policy | Created refactoui directory, __init__.py, OSS_POLICY.md | OK | Poetry warning resolved, OSS policy documented |
 | 2025-07-21 | 1.3 Configuration Management | Added Pydantic and toml, created config.py for config loading | Tests OK | Config loader implemented, libcst import works, all tests passed |
@@ -26,4 +27,10 @@
 
 | 2025-07-23 | 3.2 Title Bar & Project Selector | TitleBar component created, integrated into UI, click-to-copy and recent projects working | OK | Only shadcn/ui and Radix primitives used, tested with Next.js |
 
+| 2025-07-23 | 3.3 Toolbar     | Toolbar tested, config fixed, committed and pushed to GitHub | Tests OK | OSS-only, Jest setup, all requirements met |
+
+| 2025-07-23 | 3.3 Toolbar     | Implemented Toolbar component in React using shadcn/ui. Integrated into main UI below TitleBar. | Initial UI renders, actions stubbed, ready for testing. | OSS-only, per plan. |
+
 *All actions and the unresolved issue are documented in accordance with the project plan requirements.*
+
+| 2025-07-23 | 3.4 Sidebar: Tree Browser | SidebarTree component implemented with Radix UI and Zustand, integrated into main UI. | Initial UI renders, expand/collapse, search, context menu working. | OSS-only, per plan. |

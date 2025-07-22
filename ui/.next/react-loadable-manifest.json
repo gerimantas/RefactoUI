@@ -1,45 +1,44 @@
 {
   "node_modules\\next\\dist\\client\\index.js -> ../pages/_app": {
-    "id": 57,
+    "id": "node_modules\\next\\dist\\client\\index.js -> ../pages/_app",
     "files": [
-      "static/chunks/57.268c8c590d7f2802.js"
+      "static/chunks/_pages-dir-browser_node_modules_next_dist_pages__app_js.js"
     ]
   },
   "node_modules\\next\\dist\\client\\index.js -> ../pages/_error": {
-    "id": 4100,
+    "id": "node_modules\\next\\dist\\client\\index.js -> ../pages/_error",
     "files": [
-      "static/chunks/100.dbdf1ef205c72caf.js"
+      "static/chunks/_pages-dir-browser_node_modules_next_dist_pages__error_js.js"
     ]
   },
   "pages\\index.js -> ../components/DemoRadixDialog": {
-    "id": 5920,
+    "id": "pages\\index.js -> ../components/DemoRadixDialog",
     "files": [
-      "static/chunks/95.cef96ded15632165.js",
-      "static/chunks/920.d6a30adfad862615.js"
+      "static/chunks/_pages-dir-browser_components_DemoRadixDialog_js.js"
     ]
   },
   "pages\\index.js -> ../components/DemoReactQuery": {
-    "id": 397,
+    "id": "pages\\index.js -> ../components/DemoReactQuery",
     "files": [
-      "static/chunks/397.9570337c8d1d0a3a.js"
+      "static/chunks/_pages-dir-browser_components_DemoReactQuery_js.js"
     ]
   },
   "pages\\index.js -> ../components/DemoShadcnButton": {
-    "id": 6777,
+    "id": "pages\\index.js -> ../components/DemoShadcnButton",
     "files": [
-      "static/chunks/777.569589e371ed5932.js"
+      "static/chunks/_pages-dir-browser_components_DemoShadcnButton_js.js"
     ]
   },
   "pages\\index.js -> ../components/DemoZustandCounter": {
-    "id": 7346,
+    "id": "pages\\index.js -> ../components/DemoZustandCounter",
     "files": [
-      "static/chunks/346.e518dcd4068bcd5e.js"
+      "static/chunks/_pages-dir-browser_components_DemoZustandCounter_js.js"
     ]
   },
   "pages\\index.js -> ../components/TitleBar": {
-    "id": 4090,
+    "id": "pages\\index.js -> ../components/TitleBar",
     "files": [
-      "static/chunks/90.5ce6bb9bd38510fa.js"
+      "static/chunks/_pages-dir-browser_components_TitleBar_js.js"
     ]
   }
 }
